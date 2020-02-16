@@ -2,7 +2,7 @@
 ## 1. 简介
   **Bowling** 是一款基于 [**Alamofire**](https://github.com/Alamofire/Alamofire) 库封装的 **Swift** 版本的网络库,设计过程中借鉴了 [**Moya**](https://github.com/Moya/Moya) 库的部分设计思想, 同时保留 **Alamofire** 库的对外 API 接口,另外我们结合业务内嵌 [**HandyJSON**](https://github.com/alibaba/HandyJSON) 库将 JSON 转化为相应的业务对象  
   
-  
+ ![设计图](./v1.0.png)
 
 ### 1.1. 特性
 
