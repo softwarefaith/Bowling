@@ -1,0 +1,330 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AFError"
+- "AdaptError"
+provides-nominal:
+- "12BowlingTests7AFErrorO"
+- "12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO"
+- "12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO"
+- "12BowlingTests7AFErrorO31ResponseValidationFailureReasonO"
+- "12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO"
+- "12BowlingTests10AdaptErrorV"
+provides-member:
+- ["12BowlingTests7AFErrorO", ""]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", ""]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", ""]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", ""]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", ""]
+- ["12BowlingTests10AdaptErrorV", ""]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "underlyingAdaptError"]
+- ["12BowlingTests7AFErrorO", "isInvalidURLError"]
+- ["12BowlingTests7AFErrorO", "isParameterEncodingError"]
+- ["12BowlingTests7AFErrorO", "isMultipartEncodingError"]
+- ["12BowlingTests7AFErrorO", "isResponseValidationError"]
+- ["12BowlingTests7AFErrorO", "isResponseSerializationError"]
+- ["12BowlingTests7AFErrorO", "urlConvertible"]
+- ["12BowlingTests7AFErrorO", "url"]
+- ["12BowlingTests7AFErrorO", "underlyingError"]
+- ["12BowlingTests7AFErrorO", "acceptableContentTypes"]
+- ["12BowlingTests7AFErrorO", "responseContentType"]
+- ["12BowlingTests7AFErrorO", "responseCode"]
+- ["12BowlingTests7AFErrorO", "failedStringEncoding"]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", "underlyingError"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "url"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "underlyingError"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "acceptableContentTypes"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "responseContentType"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "responseCode"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "failedStringEncoding"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "underlyingError"]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", "localizedDescription"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "localizedDescription"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "localizedDescription"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "localizedDescription"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AFError"
+- "AdaptError"
+- "Bool"
+- "CastingPrecedence"
+- "Error"
+- "Int"
+- "LocalizedError"
+- "String"
+- "URL"
+- "URLConvertible"
+- !private "UnicodeScalarType"
+depends-member:
+- ["12BowlingTests7AFErrorO", "Bool"]
+- ["12BowlingTests7AFErrorO", "Error"]
+- ["12BowlingTests7AFErrorO", "Int"]
+- ["12BowlingTests7AFErrorO", "MultipartEncodingFailureReason"]
+- ["12BowlingTests7AFErrorO", "ParameterEncodingFailureReason"]
+- ["12BowlingTests7AFErrorO", "ResponseSerializationFailureReason"]
+- ["12BowlingTests7AFErrorO", "ResponseValidationFailureReason"]
+- ["12BowlingTests7AFErrorO", "String"]
+- ["12BowlingTests7AFErrorO", "URL"]
+- ["12BowlingTests7AFErrorO", "URLConvertible"]
+- ["12BowlingTests7AFErrorO", "_code"]
+- ["12BowlingTests7AFErrorO", "_domain"]
+- ["12BowlingTests7AFErrorO", "_getEmbeddedNSError"]
+- ["12BowlingTests7AFErrorO", "_userInfo"]
+- ["12BowlingTests7AFErrorO", "acceptableContentTypes"]
+- ["12BowlingTests7AFErrorO", "deinit"]
+- ["12BowlingTests7AFErrorO", "errorDescription"]
+- ["12BowlingTests7AFErrorO", "failedStringEncoding"]
+- ["12BowlingTests7AFErrorO", "failureReason"]
+- ["12BowlingTests7AFErrorO", "helpAnchor"]
+- ["12BowlingTests7AFErrorO", "invalidURL"]
+- ["12BowlingTests7AFErrorO", "isInvalidURLError"]
+- ["12BowlingTests7AFErrorO", "isMultipartEncodingError"]
+- ["12BowlingTests7AFErrorO", "isParameterEncodingError"]
+- ["12BowlingTests7AFErrorO", "isResponseSerializationError"]
+- ["12BowlingTests7AFErrorO", "isResponseValidationError"]
+- ["12BowlingTests7AFErrorO", "multipartEncodingFailed"]
+- ["12BowlingTests7AFErrorO", "parameterEncodingFailed"]
+- ["12BowlingTests7AFErrorO", "recoverySuggestion"]
+- ["12BowlingTests7AFErrorO", "responseCode"]
+- ["12BowlingTests7AFErrorO", "responseContentType"]
+- ["12BowlingTests7AFErrorO", "responseSerializationFailed"]
+- ["12BowlingTests7AFErrorO", "responseValidationFailed"]
+- ["12BowlingTests7AFErrorO", "underlyingError"]
+- ["12BowlingTests7AFErrorO", "url"]
+- ["12BowlingTests7AFErrorO", "urlConvertible"]
+- ["12BowlingTests10AdaptErrorV", "Error"]
+- ["12BowlingTests10AdaptErrorV", "_code"]
+- ["12BowlingTests10AdaptErrorV", "_domain"]
+- ["12BowlingTests10AdaptErrorV", "_getEmbeddedNSError"]
+- ["12BowlingTests10AdaptErrorV", "_userInfo"]
+- ["12BowlingTests10AdaptErrorV", "deinit"]
+- ["12BowlingTests10AdaptErrorV", "error"]
+- ["12BowlingTests10AdaptErrorV", "init"]
+- !private ["Sa", "joined"]
+- ["SK", "Encoding"]
+- !private ["SK", "joined"]
+- ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "joined"]
+- ["Sl", "Encoding"]
+- !private ["Sl", "joined"]
+- ["SL", "Encoding"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "joined"]
+- ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- ["Se", "Encoding"]
+- !private ["Se", "joined"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "Encoding"]
+- !private ["SE", "joined"]
+- ["SQ", "Encoding"]
+- !private ["SQ", "joined"]
+- !private ["s5ErrorP", "AdaptError"]
+- ["s5ErrorP", "Error"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "error"]
+- ["s5ErrorP", "errorDescription"]
+- ["s5ErrorP", "failureReason"]
+- ["s5ErrorP", "helpAnchor"]
+- ["s5ErrorP", "invalidURL"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s5ErrorP", "multipartEncodingFailed"]
+- ["s5ErrorP", "parameterEncodingFailed"]
+- ["s5ErrorP", "recoverySuggestion"]
+- ["s5ErrorP", "responseSerializationFailed"]
+- ["s5ErrorP", "responseValidationFailed"]
+- ["s5ErrorP", "underlyingAdaptError"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- ["s32ExpressibleByStringInterpolationP", "Encoding"]
+- ["s26ExpressibleByStringLiteralP", "Encoding"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- ["SH", "Encoding"]
+- !private ["SH", "joined"]
+- ["10Foundation14LocalizedErrorP", ""]
+- ["10Foundation14LocalizedErrorP", "_code"]
+- ["10Foundation14LocalizedErrorP", "_domain"]
+- ["10Foundation14LocalizedErrorP", "_getEmbeddedNSError"]
+- ["10Foundation14LocalizedErrorP", "_userInfo"]
+- ["10Foundation14LocalizedErrorP", "errorDescription"]
+- ["10Foundation14LocalizedErrorP", "failureReason"]
+- ["10Foundation14LocalizedErrorP", "helpAnchor"]
+- ["10Foundation14LocalizedErrorP", "invalidURL"]
+- ["10Foundation14LocalizedErrorP", "multipartEncodingFailed"]
+- ["10Foundation14LocalizedErrorP", "parameterEncodingFailed"]
+- ["10Foundation14LocalizedErrorP", "recoverySuggestion"]
+- ["10Foundation14LocalizedErrorP", "responseSerializationFailed"]
+- ["10Foundation14LocalizedErrorP", "responseValidationFailed"]
+- ["s25LosslessStringConvertibleP", "Encoding"]
+- ["s10MirrorPathP", "Encoding"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "Error"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "String"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "URL"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "bodyPartFileIsDirectory"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "bodyPartFileNotReachable"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "bodyPartFileNotReachableWithError"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "bodyPartFileSizeNotAvailable"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "bodyPartFileSizeQueryFailedWithError"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "bodyPartFilenameInvalid"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "bodyPartInputStreamCreationFailed"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "bodyPartURLInvalid"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "inputStreamReadFailed"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "localizedDescription"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "outputStreamCreationFailed"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "outputStreamFileAlreadyExists"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "outputStreamURLInvalid"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "outputStreamWriteFailed"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "underlyingError"]
+- ["12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO", "url"]
+- !private ["SM", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", "Error"]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", "String"]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", "jsonEncodingFailed"]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", "localizedDescription"]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", "missingURL"]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", "propertyListEncodingFailed"]
+- ["12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO", "underlyingError"]
+- !private ["Sk", "joined"]
+- ["Sm", "Encoding"]
+- !private ["Sm", "joined"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "Error"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "String"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "URL"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "failedStringEncoding"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "inputDataNil"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "inputDataNilOrZeroLength"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "inputFileNil"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "inputFileReadFailed"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "jsonSerializationFailed"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "localizedDescription"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "propertyListSerializationFailed"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "stringSerializationFailed"]
+- ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "underlyingError"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "Int"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "String"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "URL"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "acceptableContentTypes"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "dataFileNil"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "dataFileReadFailed"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "localizedDescription"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "missingContentType"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "responseCode"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "responseContentType"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "unacceptableContentType"]
+- ["12BowlingTests7AFErrorO31ResponseValidationFailureReasonO", "unacceptableStatusCode"]
+- ["ST", "Encoding"]
+- !private ["ST", "joined"]
+- ["SS", "Encoding"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["Sy", "Encoding"]
+- ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s20TextOutputStreamableP", "Encoding"]
+- ["12BowlingTests14URLConvertibleP", "Encoding"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- ["s19_HasContiguousBytesP", "Encoding"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+depends-nominal:
+- "12BowlingTests7AFErrorO"
+- "12BowlingTests10AdaptErrorV"
+- !private "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "10Foundation14LocalizedErrorP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "12BowlingTests7AFErrorO30MultipartEncodingFailureReasonO"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "12BowlingTests7AFErrorO30ParameterEncodingFailureReasonO"
+- !private "Sk"
+- "Sm"
+- "12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO"
+- "12BowlingTests7AFErrorO31ResponseValidationFailureReasonO"
+- "ST"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "12BowlingTests14URLConvertibleP"
+- !private "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "93601605850a5501c3f9fcf707533d23"

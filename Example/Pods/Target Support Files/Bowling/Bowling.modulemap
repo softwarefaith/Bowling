@@ -1,0 +1,6 @@
+framework module Bowling {
+  umbrella header "Bowling-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,393 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultDataResponse"
+- "DataResponse"
+- "DefaultDownloadResponse"
+- "DownloadResponse"
+- "Response"
+provides-nominal:
+- "12BowlingTests19DefaultDataResponseV"
+- "12BowlingTests12DataResponseV"
+- "12BowlingTests23DefaultDownloadResponseV"
+- "12BowlingTests16DownloadResponseV"
+- "12BowlingTests8ResponseP"
+provides-member:
+- ["12BowlingTests19DefaultDataResponseV", ""]
+- ["12BowlingTests12DataResponseV", ""]
+- ["12BowlingTests23DefaultDownloadResponseV", ""]
+- ["12BowlingTests16DownloadResponseV", ""]
+- ["12BowlingTests8ResponseP", ""]
+- ["12BowlingTests12DataResponseV", "map"]
+- ["12BowlingTests12DataResponseV", "flatMap"]
+- ["12BowlingTests12DataResponseV", "mapError"]
+- ["12BowlingTests12DataResponseV", "flatMapError"]
+- ["12BowlingTests16DownloadResponseV", "map"]
+- ["12BowlingTests16DownloadResponseV", "flatMap"]
+- ["12BowlingTests16DownloadResponseV", "mapError"]
+- ["12BowlingTests16DownloadResponseV", "flatMapError"]
+- ["12BowlingTests8ResponseP", "add"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "CustomDebugStringConvertible"
+- "CustomStringConvertible"
+- "Data"
+- "DataResponse"
+- "DefaultDataResponse"
+- "DefaultDownloadResponse"
+- "DownloadResponse"
+- "Error"
+- "HTTPURLResponse"
+- "Response"
+- "Result"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "Timeline"
+- "URL"
+- "URLRequest"
+- "URLSessionTaskMetrics"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "joined"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "DataResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "DownloadResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "Timeline"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_metrics"]
+- ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "destinationURL"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMapError"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "mapError"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "resumeData"]
+- !private ["s28CustomDebugStringConvertibleP", "temporaryURL"]
+- !private ["s28CustomDebugStringConvertibleP", "timeline"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s23CustomStringConvertibleP", "DataResponse"]
+- !private ["s23CustomStringConvertibleP", "DownloadResponse"]
+- !private ["s23CustomStringConvertibleP", "Timeline"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_metrics"]
+- ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "destinationURL"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "flatMapError"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "mapError"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "request"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "resumeData"]
+- !private ["s23CustomStringConvertibleP", "temporaryURL"]
+- !private ["s23CustomStringConvertibleP", "timeline"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- ["12BowlingTests12DataResponseV", "AnyObject"]
+- ["12BowlingTests12DataResponseV", "Data"]
+- ["12BowlingTests12DataResponseV", "DataResponse"]
+- ["12BowlingTests12DataResponseV", "Error"]
+- ["12BowlingTests12DataResponseV", "HTTPURLResponse"]
+- ["12BowlingTests12DataResponseV", "Result"]
+- ["12BowlingTests12DataResponseV", "String"]
+- ["12BowlingTests12DataResponseV", "Timeline"]
+- ["12BowlingTests12DataResponseV", "URLRequest"]
+- ["12BowlingTests12DataResponseV", "URLSessionTaskMetrics"]
+- ["12BowlingTests12DataResponseV", "_metrics"]
+- ["12BowlingTests12DataResponseV", "add"]
+- ["12BowlingTests12DataResponseV", "data"]
+- ["12BowlingTests12DataResponseV", "debugDescription"]
+- ["12BowlingTests12DataResponseV", "deinit"]
+- ["12BowlingTests12DataResponseV", "description"]
+- ["12BowlingTests12DataResponseV", "error"]
+- ["12BowlingTests12DataResponseV", "init"]
+- ["12BowlingTests12DataResponseV", "metrics"]
+- ["12BowlingTests12DataResponseV", "request"]
+- ["12BowlingTests12DataResponseV", "response"]
+- ["12BowlingTests12DataResponseV", "result"]
+- ["12BowlingTests12DataResponseV", "timeline"]
+- ["12BowlingTests12DataResponseV", "value"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "joined"]
+- !private ["Se", "path"]
+- ["12BowlingTests19DefaultDataResponseV", "AnyObject"]
+- ["12BowlingTests19DefaultDataResponseV", "Data"]
+- ["12BowlingTests19DefaultDataResponseV", "Error"]
+- ["12BowlingTests19DefaultDataResponseV", "HTTPURLResponse"]
+- ["12BowlingTests19DefaultDataResponseV", "Timeline"]
+- ["12BowlingTests19DefaultDataResponseV", "URLRequest"]
+- ["12BowlingTests19DefaultDataResponseV", "URLSessionTaskMetrics"]
+- ["12BowlingTests19DefaultDataResponseV", "_metrics"]
+- ["12BowlingTests19DefaultDataResponseV", "add"]
+- ["12BowlingTests19DefaultDataResponseV", "data"]
+- ["12BowlingTests19DefaultDataResponseV", "deinit"]
+- ["12BowlingTests19DefaultDataResponseV", "error"]
+- ["12BowlingTests19DefaultDataResponseV", "init"]
+- ["12BowlingTests19DefaultDataResponseV", "metrics"]
+- ["12BowlingTests19DefaultDataResponseV", "request"]
+- ["12BowlingTests19DefaultDataResponseV", "response"]
+- ["12BowlingTests19DefaultDataResponseV", "timeline"]
+- ["12BowlingTests23DefaultDownloadResponseV", "AnyObject"]
+- ["12BowlingTests23DefaultDownloadResponseV", "Data"]
+- ["12BowlingTests23DefaultDownloadResponseV", "Error"]
+- ["12BowlingTests23DefaultDownloadResponseV", "HTTPURLResponse"]
+- ["12BowlingTests23DefaultDownloadResponseV", "Timeline"]
+- ["12BowlingTests23DefaultDownloadResponseV", "URL"]
+- ["12BowlingTests23DefaultDownloadResponseV", "URLRequest"]
+- ["12BowlingTests23DefaultDownloadResponseV", "URLSessionTaskMetrics"]
+- ["12BowlingTests23DefaultDownloadResponseV", "_metrics"]
+- ["12BowlingTests23DefaultDownloadResponseV", "add"]
+- ["12BowlingTests23DefaultDownloadResponseV", "deinit"]
+- ["12BowlingTests23DefaultDownloadResponseV", "destinationURL"]
+- ["12BowlingTests23DefaultDownloadResponseV", "error"]
+- ["12BowlingTests23DefaultDownloadResponseV", "init"]
+- ["12BowlingTests23DefaultDownloadResponseV", "metrics"]
+- ["12BowlingTests23DefaultDownloadResponseV", "request"]
+- ["12BowlingTests23DefaultDownloadResponseV", "response"]
+- ["12BowlingTests23DefaultDownloadResponseV", "resumeData"]
+- ["12BowlingTests23DefaultDownloadResponseV", "temporaryURL"]
+- ["12BowlingTests23DefaultDownloadResponseV", "timeline"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["12BowlingTests16DownloadResponseV", "AnyObject"]
+- ["12BowlingTests16DownloadResponseV", "Data"]
+- ["12BowlingTests16DownloadResponseV", "DownloadResponse"]
+- ["12BowlingTests16DownloadResponseV", "Error"]
+- ["12BowlingTests16DownloadResponseV", "HTTPURLResponse"]
+- ["12BowlingTests16DownloadResponseV", "Result"]
+- ["12BowlingTests16DownloadResponseV", "String"]
+- ["12BowlingTests16DownloadResponseV", "Timeline"]
+- ["12BowlingTests16DownloadResponseV", "URL"]
+- ["12BowlingTests16DownloadResponseV", "URLRequest"]
+- ["12BowlingTests16DownloadResponseV", "URLSessionTaskMetrics"]
+- ["12BowlingTests16DownloadResponseV", "_metrics"]
+- ["12BowlingTests16DownloadResponseV", "add"]
+- ["12BowlingTests16DownloadResponseV", "debugDescription"]
+- ["12BowlingTests16DownloadResponseV", "deinit"]
+- ["12BowlingTests16DownloadResponseV", "description"]
+- ["12BowlingTests16DownloadResponseV", "destinationURL"]
+- ["12BowlingTests16DownloadResponseV", "error"]
+- ["12BowlingTests16DownloadResponseV", "flatMap"]
+- ["12BowlingTests16DownloadResponseV", "flatMapError"]
+- ["12BowlingTests16DownloadResponseV", "init"]
+- ["12BowlingTests16DownloadResponseV", "map"]
+- ["12BowlingTests16DownloadResponseV", "mapError"]
+- ["12BowlingTests16DownloadResponseV", "metrics"]
+- ["12BowlingTests16DownloadResponseV", "request"]
+- ["12BowlingTests16DownloadResponseV", "response"]
+- ["12BowlingTests16DownloadResponseV", "result"]
+- ["12BowlingTests16DownloadResponseV", "resumeData"]
+- ["12BowlingTests16DownloadResponseV", "temporaryURL"]
+- ["12BowlingTests16DownloadResponseV", "timeline"]
+- ["12BowlingTests16DownloadResponseV", "value"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "joined"]
+- !private ["SE", "path"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "httpMethod"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "path"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "httpMethod"]
+- !private ["SH", "joined"]
+- !private ["SH", "path"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "joined"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "joined"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- ["12BowlingTests8ResponseP", "AnyObject"]
+- !private ["12BowlingTests8ResponseP", "DataResponse"]
+- !private ["12BowlingTests8ResponseP", "DownloadResponse"]
+- !private ["12BowlingTests8ResponseP", "Timeline"]
+- !private ["12BowlingTests8ResponseP", "URLSessionTaskMetrics"]
+- ["12BowlingTests8ResponseP", ""]
+- ["12BowlingTests8ResponseP", "_metrics"]
+- ["12BowlingTests8ResponseP", "add"]
+- !private ["12BowlingTests8ResponseP", "data"]
+- ["12BowlingTests8ResponseP", "debugDescription"]
+- ["12BowlingTests8ResponseP", "description"]
+- !private ["12BowlingTests8ResponseP", "destinationURL"]
+- !private ["12BowlingTests8ResponseP", "error"]
+- !private ["12BowlingTests8ResponseP", "init"]
+- !private ["12BowlingTests8ResponseP", "request"]
+- !private ["12BowlingTests8ResponseP", "response"]
+- !private ["12BowlingTests8ResponseP", "result"]
+- !private ["12BowlingTests8ResponseP", "resumeData"]
+- !private ["12BowlingTests8ResponseP", "temporaryURL"]
+- !private ["12BowlingTests8ResponseP", "timeline"]
+- !private ["12BowlingTests6ResultO", "debugDescription"]
+- !private ["12BowlingTests6ResultO", "deinit"]
+- !private ["12BowlingTests6ResultO", "error"]
+- !private ["12BowlingTests6ResultO", "flatMap"]
+- !private ["12BowlingTests6ResultO", "flatMapError"]
+- !private ["12BowlingTests6ResultO", "map"]
+- !private ["12BowlingTests6ResultO", "mapError"]
+- !private ["12BowlingTests6ResultO", "value"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "joined"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["12BowlingTests8TimelineV", "debugDescription"]
+- !private ["12BowlingTests8TimelineV", "deinit"]
+- !private ["12BowlingTests8TimelineV", "init"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["12BowlingTests14URLConvertibleP", "path"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["12BowlingTests21URLRequestConvertibleP", "httpMethod"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "12BowlingTests12DataResponseV"
+- !private "Se"
+- "12BowlingTests19DefaultDataResponseV"
+- "12BowlingTests23DefaultDownloadResponseV"
+- !private "s26DefaultStringInterpolationV"
+- "12BowlingTests16DownloadResponseV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "12BowlingTests8ResponseP"
+- !private "12BowlingTests6ResultO"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "12BowlingTests8TimelineV"
+- !private "10Foundation3URLV"
+- !private "12BowlingTests14URLConvertibleP"
+- !private "10Foundation10URLRequestV"
+- !private "12BowlingTests21URLRequestConvertibleP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e75473f86deb18c284c45aadf255e791"

@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.9.0)
+  - Bowling (0.1.0):
+    - Alamofire (~> 4.9)
+    - HandyJSON (~> 5.0.0)
+  - HandyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9)
+  - Bowling (from `../`)
+  - HandyJSON (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HandyJSON
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  Bowling:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  Bowling: 870df00d344dbdf3ec6171fa75d9f2ab23be6964
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+
+PODFILE CHECKSUM: 4a9cef930bcb9e33e50ed8833bd86cbffa31c112
+
+COCOAPODS: 1.8.4

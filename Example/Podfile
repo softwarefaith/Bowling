@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'Bowling_Example' do
+  pod 'Bowling', :path => '../'
+  pod 'Alamofire','~> 4.9'
+  # 5.0 最低支持 10.0
+  # pod 'Alamofire', '~> 5.0.0-rc.2'
+  pod 'HandyJSON', '~> 5.0.0'
+end

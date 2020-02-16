@@ -1,0 +1,131 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BowlingConfig"
+- "BowlingGlobalConfig"
+provides-nominal:
+- "12BowlingTests0A6ConfigP"
+- "12BowlingTests0A12GlobalConfigC"
+provides-member:
+- ["12BowlingTests0A6ConfigP", ""]
+- ["12BowlingTests0A12GlobalConfigC", ""]
+- ["12BowlingTests0A6ConfigP", "timeoutInterval"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BowlingConfig"
+- "BowlingGlobalConfig"
+- "String"
+- "TimeInterval"
+depends-member:
+- ["12BowlingTests0A6ConfigP", "BowlingGlobalConfig"]
+- !private ["12BowlingTests0A6ConfigP", "HTTPHeaderMap"]
+- ["12BowlingTests0A6ConfigP", "String"]
+- ["12BowlingTests0A6ConfigP", "TimeInterval"]
+- ["12BowlingTests0A6ConfigP", ""]
+- ["12BowlingTests0A6ConfigP", "commonHTTPHeaderMap"]
+- !private ["12BowlingTests0A6ConfigP", "dynamicHTTPHeader"]
+- ["12BowlingTests0A6ConfigP", "init"]
+- ["12BowlingTests0A6ConfigP", "serverHost"]
+- ["12BowlingTests0A6ConfigP", "timeoutInterval"]
+- ["12BowlingTests0A12GlobalConfigC", "BowlingGlobalConfig"]
+- !private ["12BowlingTests0A12GlobalConfigC", "HTTPHeaderMap"]
+- ["12BowlingTests0A12GlobalConfigC", "String"]
+- ["12BowlingTests0A12GlobalConfigC", "TimeInterval"]
+- ["12BowlingTests0A12GlobalConfigC", "commonHTTPHeaderMap"]
+- ["12BowlingTests0A12GlobalConfigC", "deinit"]
+- ["12BowlingTests0A12GlobalConfigC", "dynamicFetchHTTPHeader"]
+- ["12BowlingTests0A12GlobalConfigC", "dynamicHTTPHeader"]
+- ["12BowlingTests0A12GlobalConfigC", "global"]
+- ["12BowlingTests0A12GlobalConfigC", "init"]
+- ["12BowlingTests0A12GlobalConfigC", "serverHost"]
+- ["12BowlingTests0A12GlobalConfigC", "setHTTPHeader"]
+- ["12BowlingTests0A12GlobalConfigC", "timeoutInterval"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "merging"]
+- !private ["s7CVarArgP", "subscript"]
+- ["Sl", "init"]
+- !private ["Sl", "merging"]
+- !private ["Sl", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "merging"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "merging"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "merging"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["Se", "init"]
+- !private ["Se", "merging"]
+- !private ["Se", "subscript"]
+- ["SD", "init"]
+- !private ["SD", "merging"]
+- !private ["SD", "subscript"]
+- ["SE", "init"]
+- !private ["SE", "merging"]
+- !private ["SE", "subscript"]
+- ["SQ", "init"]
+- !private ["SQ", "merging"]
+- !private ["SQ", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "merging"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["SH", "init"]
+- !private ["SH", "merging"]
+- !private ["SH", "subscript"]
+- ["ST", "init"]
+- !private ["ST", "merging"]
+- !private ["ST", "subscript"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "merging"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "merging"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "12BowlingTests0A6ConfigP"
+- "12BowlingTests0A12GlobalConfigC"
+- "s7CVarArgP"
+- "Sl"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "ST"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cf59f6bc74bb9a44b5ec83de55d882e0"

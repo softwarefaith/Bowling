@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "d927bc1ec485347121eec3d36b4b5d3c"
+build_time: [1562912556, 30506000]
+inputs:
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/AFError.swift": [1562572250, 770999087]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/Alamofire.swift": [1562572250, 772215376]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1562572250, 770270895]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/MultipartFormData.swift": [1562572250, 769473579]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1562572250, 769829232]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/Notifications.swift": [1562572250, 771565691]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/ParameterEncoding.swift": [1562572250, 770729071]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/Request.swift": [1562572250, 772503063]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/Response.swift": [1562572250, 771888300]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/ResponseSerialization.swift": [1562572250, 773090571]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/Result.swift": [1562572250, 770500077]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1562572250, 773337128]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/SessionDelegate.swift": [1562572250, 773613268]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/SessionManager.swift": [1562572250, 772799634]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/TaskDelegate.swift": [1562572250, 769089492]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/Timeline.swift": [1562572250, 770058124]
+  "/Users/caijie/MLJRCode/Bowling/Example/Pods/Alamofire/Source/Validation.swift": [1562572250, 771246147]

@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E63DDBF22E5B055003C949A /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63DDBE22E5B055003C949A /* TestModel.swift */; };
+		2E63DDC222E6E3FE003C949A /* Alamofile+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63DDC122E6E3FE003C949A /* Alamofile+Extention.swift */; };
+		2E63DDC422E71F62003C949A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E63DDC322E71F62003C949A /* test.swift */; };
+		2E6551CE22E5528400B7AA58 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6551CD22E5528400B7AA58 /* BaseViewController.swift */; };
+		2E6551D622E55B2100B7AA58 /* BowlingResponse+ModelExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6551D522E55B2100B7AA58 /* BowlingResponse+ModelExtention.swift */; };
+		2E6551D922E5883900B7AA58 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6551D822E5883900B7AA58 /* Global.swift */; };
+		2E676A0B22F29851005F5CFC /* customViewtroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E676A0A22F29851005F5CFC /* customViewtroller.swift */; };
+		2EB7B9E12303AC5C003DAD10 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7B9E02303AC5C003DAD10 /* DownloadViewController.swift */; };
+		2ECD8E5B230545A100095877 /* XXXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD8E5A230545A100095877 /* XXXViewController.m */; };
+		2EE0082F236045A0005559A9 /* BowlingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE008232360459F005559A9 /* BowlingConfig.swift */; };
+		2EE00830236045A0005559A9 /* BowlingLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE008242360459F005559A9 /* BowlingLog.swift */; };
+		2EE00831236045A0005559A9 /* BowlingChainRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE008252360459F005559A9 /* BowlingChainRequest.swift */; };
+		2EE00832236045A0005559A9 /* BowlingBatchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE008262360459F005559A9 /* BowlingBatchRequest.swift */; };
+		2EE00833236045A0005559A9 /* BowlingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE008272360459F005559A9 /* BowlingManager.swift */; };
+		2EE00834236045A0005559A9 /* BowlingRequst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE008282360459F005559A9 /* BowlingRequst.swift */; };
+		2EE00835236045A0005559A9 /* BowlingDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE008292360459F005559A9 /* BowlingDownload.swift */; };
+		2EE00836236045A0005559A9 /* BowlingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0082A2360459F005559A9 /* BowlingResponse.swift */; };
+		2EE00837236045A0005559A9 /* BowlingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0082B2360459F005559A9 /* BowlingValue.swift */; };
+		2EE00838236045A0005559A9 /* BowlingInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0082C236045A0005559A9 /* BowlingInterceptor.swift */; };
+		2EE00839236045A0005559A9 /* BowlingNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0082D236045A0005559A9 /* BowlingNet.swift */; };
+		2EE0083A236045A0005559A9 /* BowlingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0082E236045A0005559A9 /* BowlingCall.swift */; };
+		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
+		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		9488F4A765D7198B61223E63 /* Pods_Bowling_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EEAF3C6D6AD11C5C10B295 /* Pods_Bowling_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12526D87C0FF08830A9C0458 /* Pods-Bowling_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bowling_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Bowling_Tests/Pods-Bowling_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		146BE7D433D5FF39FD34324C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E29DA4322D32E6F00AF1984 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E56E8862334BC9100B50105 /* Vertify.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Vertify.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2E63DDBE22E5B055003C949A /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		2E63DDC122E6E3FE003C949A /* Alamofile+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofile+Extention.swift"; sourceTree = "<group>"; };
+		2E63DDC322E71F62003C949A /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		2E6551CD22E5528400B7AA58 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2E6551D522E55B2100B7AA58 /* BowlingResponse+ModelExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BowlingResponse+ModelExtention.swift"; sourceTree = "<group>"; };
+		2E6551D822E5883900B7AA58 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		2E676A0A22F29851005F5CFC /* customViewtroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customViewtroller.swift; sourceTree = "<group>"; };
+		2EB7B9E02303AC5C003DAD10 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		2ECD8E58230545A100095877 /* Bowling_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bowling_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		2ECD8E59230545A100095877 /* XXXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXViewController.h; sourceTree = "<group>"; };
+		2ECD8E5A230545A100095877 /* XXXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXViewController.m; sourceTree = "<group>"; };
+		2EE008232360459F005559A9 /* BowlingConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingConfig.swift; sourceTree = "<group>"; };
+		2EE008242360459F005559A9 /* BowlingLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingLog.swift; sourceTree = "<group>"; };
+		2EE008252360459F005559A9 /* BowlingChainRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingChainRequest.swift; sourceTree = "<group>"; };
+		2EE008262360459F005559A9 /* BowlingBatchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingBatchRequest.swift; sourceTree = "<group>"; };
+		2EE008272360459F005559A9 /* BowlingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingManager.swift; sourceTree = "<group>"; };
+		2EE008282360459F005559A9 /* BowlingRequst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingRequst.swift; sourceTree = "<group>"; };
+		2EE008292360459F005559A9 /* BowlingDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingDownload.swift; sourceTree = "<group>"; };
+		2EE0082A2360459F005559A9 /* BowlingResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingResponse.swift; sourceTree = "<group>"; };
+		2EE0082B2360459F005559A9 /* BowlingValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingValue.swift; sourceTree = "<group>"; };
+		2EE0082C236045A0005559A9 /* BowlingInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingInterceptor.swift; sourceTree = "<group>"; };
+		2EE0082D236045A0005559A9 /* BowlingNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingNet.swift; sourceTree = "<group>"; };
+		2EE0082E236045A0005559A9 /* BowlingCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingCall.swift; sourceTree = "<group>"; };
+		48DE669B53B6918BB30A3102 /* Pods-Bowling_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bowling_Example.release.xcconfig"; path = "Target Support Files/Pods-Bowling_Example/Pods-Bowling_Example.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* Bowling_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bowling_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		61B6A0A8C88FD74ECA2A6FE2 /* Bowling.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Bowling.podspec; path = ../Bowling.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7463F833FBD8588752A5CDB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A0191C990CBBCBE5CDAAC4E4 /* Pods-Bowling_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bowling_Tests.release.xcconfig"; path = "Target Support Files/Pods-Bowling_Tests/Pods-Bowling_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C1EEAF3C6D6AD11C5C10B295 /* Pods_Bowling_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bowling_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BEDE197B079B2C059EF245 /* Pods_Bowling_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bowling_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF687C8B860A96142F218AB7 /* Pods-Bowling_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bowling_Example.debug.xcconfig"; path = "Target Support Files/Pods-Bowling_Example/Pods-Bowling_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9488F4A765D7198B61223E63 /* Pods_Bowling_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E63DDC022E6E3B6003C949A /* AlamofileEXtention */ = {
+			isa = PBXGroup;
+			children = (
+				2E63DDC122E6E3FE003C949A /* Alamofile+Extention.swift */,
+			);
+			name = AlamofileEXtention;
+			sourceTree = "<group>";
+		};
+		2E6551CF22E5528C00B7AA58 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2E6551CD22E5528400B7AA58 /* BaseViewController.swift */,
+				2E676A0A22F29851005F5CFC /* customViewtroller.swift */,
+				2EB7B9E02303AC5C003DAD10 /* DownloadViewController.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		2E6551D422E55AFA00B7AA58 /* BowlingExtention */ = {
+			isa = PBXGroup;
+			children = (
+				2E6551D522E55B2100B7AA58 /* BowlingResponse+ModelExtention.swift */,
+				2E63DDC322E71F62003C949A /* test.swift */,
+			);
+			name = BowlingExtention;
+			sourceTree = "<group>";
+		};
+		2EE008222360455A005559A9 /* V1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				2EE008262360459F005559A9 /* BowlingBatchRequest.swift */,
+				2EE0082E236045A0005559A9 /* BowlingCall.swift */,
+				2EE008252360459F005559A9 /* BowlingChainRequest.swift */,
+				2EE008232360459F005559A9 /* BowlingConfig.swift */,
+				2EE008292360459F005559A9 /* BowlingDownload.swift */,
+				2EE0082C236045A0005559A9 /* BowlingInterceptor.swift */,
+				2EE008242360459F005559A9 /* BowlingLog.swift */,
+				2EE008272360459F005559A9 /* BowlingManager.swift */,
+				2EE0082D236045A0005559A9 /* BowlingNet.swift */,
+				2EE008282360459F005559A9 /* BowlingRequst.swift */,
+				2EE0082A2360459F005559A9 /* BowlingResponse.swift */,
+				2EE0082B2360459F005559A9 /* BowlingValue.swift */,
+			);
+			name = V1.0;
+			sourceTree = "<group>";
+		};
+		337CF2BCE123A894F6352345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E29DA4322D32E6F00AF1984 /* Alamofire.framework */,
+				C1EEAF3C6D6AD11C5C10B295 /* Pods_Bowling_Example.framework */,
+				E2BEDE197B079B2C059EF245 /* Pods_Bowling_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488CFDC0DA900E5B580E117B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF687C8B860A96142F218AB7 /* Pods-Bowling_Example.debug.xcconfig */,
+				48DE669B53B6918BB30A3102 /* Pods-Bowling_Example.release.xcconfig */,
+				12526D87C0FF08830A9C0458 /* Pods-Bowling_Tests.debug.xcconfig */,
+				A0191C990CBBCBE5CDAAC4E4 /* Pods-Bowling_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				2ECD8E59230545A100095877 /* XXXViewController.h */,
+				2ECD8E5A230545A100095877 /* XXXViewController.m */,
+				2E6551D822E5883900B7AA58 /* Global.swift */,
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for Bowling */,
+				607FACD11AFB9204008FA782 /* Products */,
+				488CFDC0DA900E5B580E117B /* Pods */,
+				337CF2BCE123A894F6352345 /* Frameworks */,
+				2ECD8E58230545A100095877 /* Bowling_Example-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* Bowling_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for Bowling */ = {
+			isa = PBXGroup;
+			children = (
+				2EE008222360455A005559A9 /* V1.0 */,
+				2E56E8862334BC9100B50105 /* Vertify.playground */,
+				2E63DDC022E6E3B6003C949A /* AlamofileEXtention */,
+				2E63DDBE22E5B055003C949A /* TestModel.swift */,
+				2E6551D422E55AFA00B7AA58 /* BowlingExtention */,
+				2E6551CF22E5528C00B7AA58 /* VC */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = "Example for Bowling";
+			path = Bowling;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD41AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				61B6A0A8C88FD74ECA2A6FE2 /* Bowling.podspec */,
+				7463F833FBD8588752A5CDB6 /* README.md */,
+				146BE7D433D5FF39FD34324C /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* Bowling_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Bowling_Example" */;
+			buildPhases = (
+				3FF928469250A6AD3E1374B6 /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				2C8EA8884B86487471FEB328 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bowling_Example;
+			productName = Bowling;
+			productReference = 607FACD01AFB9204008FA782 /* Bowling_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Bowling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* Bowling_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C8EA8884B86487471FEB328 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bowling_Example/Pods-Bowling_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bowling/Bowling.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bowling.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bowling_Example/Pods-Bowling_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF928469250A6AD3E1374B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bowling_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE0083A236045A0005559A9 /* BowlingCall.swift in Sources */,
+				2EE00833236045A0005559A9 /* BowlingManager.swift in Sources */,
+				2EE00836236045A0005559A9 /* BowlingResponse.swift in Sources */,
+				2EE00832236045A0005559A9 /* BowlingBatchRequest.swift in Sources */,
+				2EE00835236045A0005559A9 /* BowlingDownload.swift in Sources */,
+				2EE00837236045A0005559A9 /* BowlingValue.swift in Sources */,
+				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				2EE00834236045A0005559A9 /* BowlingRequst.swift in Sources */,
+				2E63DDC422E71F62003C949A /* test.swift in Sources */,
+				2EE00830236045A0005559A9 /* BowlingLog.swift in Sources */,
+				2E63DDBF22E5B055003C949A /* TestModel.swift in Sources */,
+				2E676A0B22F29851005F5CFC /* customViewtroller.swift in Sources */,
+				2EE00838236045A0005559A9 /* BowlingInterceptor.swift in Sources */,
+				2EE0082F236045A0005559A9 /* BowlingConfig.swift in Sources */,
+				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2E6551D622E55B2100B7AA58 /* BowlingResponse+ModelExtention.swift in Sources */,
+				2EE00839236045A0005559A9 /* BowlingNet.swift in Sources */,
+				2E6551CE22E5528400B7AA58 /* BaseViewController.swift in Sources */,
+				2EE00831236045A0005559A9 /* BowlingChainRequest.swift in Sources */,
+				2EB7B9E12303AC5C003DAD10 /* DownloadViewController.swift in Sources */,
+				2ECD8E5B230545A100095877 /* XXXViewController.m in Sources */,
+				2E6551D922E5883900B7AA58 /* Global.swift in Sources */,
+				2E63DDC222E6E3FE003C949A /* Alamofile+Extention.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDA1AFB9204008FA782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF687C8B860A96142F218AB7 /* Pods-Bowling_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = Bowling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bowling_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DE669B53B6918BB30A3102 /* Pods-Bowling_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = Bowling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bowling_Example-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Bowling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Bowling_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}

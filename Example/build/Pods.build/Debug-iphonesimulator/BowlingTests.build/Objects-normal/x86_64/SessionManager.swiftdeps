@@ -1,0 +1,383 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SessionManager"
+provides-nominal:
+- "12BowlingTests14SessionManagerC"
+- "12BowlingTests14SessionManagerC31MultipartFormDataEncodingResultO"
+provides-member:
+- ["12BowlingTests14SessionManagerC", ""]
+- ["12BowlingTests14SessionManagerC31MultipartFormDataEncodingResultO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "+"
+- !private "+="
+- !private "<"
+- !private "==="
+- !private "??"
+- !private "AdaptError"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CFAbsoluteTimeGetCurrent"
+- "CastingPrecedence"
+- "Data"
+- "DataRequest"
+- "DispatchQueue"
+- "DownloadRequest"
+- "Error"
+- !private "FileManager"
+- "HTTPHeaders"
+- "HTTPMethod"
+- "InputStream"
+- "Int"
+- "MultipartFormData"
+- !private "NSTemporaryDirectory"
+- "NetService"
+- "ParameterEncoding"
+- "Parameters"
+- "Request"
+- "RequestAdapter"
+- "RequestRetrier"
+- "ServerTrustPolicyManager"
+- "SessionDelegate"
+- "SessionManager"
+- "StreamRequest"
+- "String"
+- "UInt64"
+- "URL"
+- "URLConvertible"
+- "URLRequest"
+- "URLRequestConvertible"
+- "URLSession"
+- "URLSessionConfiguration"
+- "UUID"
+- "UploadRequest"
+- "Void"
+depends-member:
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "configuration"]
+- !private ["s7CVarArgP", "createDirectory"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "identifier"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidateAndCancel"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "serverTrustPolicyManager"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["s7CVarArgP", "utility"]
+- !private ["s28CustomDebugStringConvertibleP", "Requestable"]
+- ["s28CustomDebugStringConvertibleP", "Streamable"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "configuration"]
+- !private ["s28CustomDebugStringConvertibleP", "createDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidateAndCancel"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "serverTrustPolicyManager"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "utility"]
+- ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s17CustomReflectableP", "async"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "Requestable"]
+- ["s23CustomStringConvertibleP", "Streamable"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "configuration"]
+- !private ["s23CustomStringConvertibleP", "createDirectory"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidateAndCancel"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "serverTrustPolicyManager"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- !private ["s23CustomStringConvertibleP", "utility"]
+- ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["12BowlingTests11DataRequestC", "Requestable"]
+- !private ["12BowlingTests11DataRequestC", "init"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "async"]
+- ["Se", "init"]
+- ["Se", "uuidString"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So18OS_dispatch_objectC", "utility"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["So17OS_dispatch_queueC", "sync"]
+- !private ["So17OS_dispatch_queueC", "utility"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "async"]
+- ["SE", "init"]
+- ["SE", "uuidString"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "async"]
+- !private ["SQ", "configuration"]
+- !private ["SQ", "createDirectory"]
+- !private ["SQ", "default"]
+- !private ["SQ", "global"]
+- !private ["SQ", "identifier"]
+- ["SQ", "init"]
+- !private ["SQ", "invalidateAndCancel"]
+- !private ["SQ", "main"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "serverTrustPolicyManager"]
+- !private ["SQ", "sync"]
+- !private ["SQ", "utility"]
+- ["SQ", "uuidString"]
+- !private ["s5ErrorP", "underlyingAdaptError"]
+- !private ["s23ExpressibleByNilLiteralP", "async"]
+- !private ["So13NSFileManagerC", "createDirectory"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "removeItem"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "async"]
+- !private ["SH", "configuration"]
+- !private ["SH", "createDirectory"]
+- !private ["SH", "default"]
+- !private ["SH", "global"]
+- !private ["SH", "identifier"]
+- ["SH", "init"]
+- !private ["SH", "invalidateAndCancel"]
+- !private ["SH", "main"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "serverTrustPolicyManager"]
+- !private ["SH", "sync"]
+- !private ["SH", "utility"]
+- ["SH", "uuidString"]
+- !private ["12BowlingTests17MultipartFormDataC", "contentLength"]
+- !private ["12BowlingTests17MultipartFormDataC", "encode"]
+- !private ["12BowlingTests17MultipartFormDataC", "init"]
+- !private ["12BowlingTests17MultipartFormDataC", "writeEncodedData"]
+- ["12BowlingTests14SessionManagerC31MultipartFormDataEncodingResultO", "Bool"]
+- ["12BowlingTests14SessionManagerC31MultipartFormDataEncodingResultO", "Error"]
+- ["12BowlingTests14SessionManagerC31MultipartFormDataEncodingResultO", "URL"]
+- ["12BowlingTests14SessionManagerC31MultipartFormDataEncodingResultO", "UploadRequest"]
+- ["12BowlingTests14SessionManagerC31MultipartFormDataEncodingResultO", "failure"]
+- !private ["12BowlingTests14SessionManagerC31MultipartFormDataEncodingResultO", "success"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "identifier"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "configuration"]
+- !private ["So8NSObjectC", "createDirectory"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidateAndCancel"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "removeItem"]
+- !private ["So8NSObjectC", "serverTrustPolicyManager"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "utility"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "configuration"]
+- !private ["So8NSObjectP", "createDirectory"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "identifier"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "invalidateAndCancel"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "removeItem"]
+- !private ["So8NSObjectP", "serverTrustPolicyManager"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "utility"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["So9OS_objectC", "utility"]
+- !private ["Sq", "async"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "utility"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["12BowlingTests7RequestC", "Requestable"]
+- ["12BowlingTests7RequestC", "Streamable"]
+- !private ["12BowlingTests14RequestRetrierP", "should"]
+- !private ["12BowlingTests11DataRequestC11RequestableV", "deinit"]
+- !private ["12BowlingTests11DataRequestC11RequestableV", "init"]
+- !private ["12BowlingTests11DataRequestC11RequestableV", "task"]
+- !private ["12BowlingTests14SessionManagerC", "AdaptError"]
+- ["12BowlingTests14SessionManagerC", "Bool"]
+- !private ["12BowlingTests14SessionManagerC", "CFAbsoluteTimeGetCurrent"]
+- ["12BowlingTests14SessionManagerC", "Data"]
+- ["12BowlingTests14SessionManagerC", "DataRequest"]
+- ["12BowlingTests14SessionManagerC", "DispatchQueue"]
+- ["12BowlingTests14SessionManagerC", "DownloadRequest"]
+- ["12BowlingTests14SessionManagerC", "Error"]
+- !private ["12BowlingTests14SessionManagerC", "FileManager"]
+- ["12BowlingTests14SessionManagerC", "HTTPHeaders"]
+- ["12BowlingTests14SessionManagerC", "HTTPMethod"]
+- ["12BowlingTests14SessionManagerC", "InputStream"]
+- ["12BowlingTests14SessionManagerC", "Int"]
+- ["12BowlingTests14SessionManagerC", "MultipartFormData"]
+- ["12BowlingTests14SessionManagerC", "MultipartFormDataEncodingResult"]
+- !private ["12BowlingTests14SessionManagerC", "NSTemporaryDirectory"]
+- ["12BowlingTests14SessionManagerC", "NetService"]
+- ["12BowlingTests14SessionManagerC", "ParameterEncoding"]
+- ["12BowlingTests14SessionManagerC", "Parameters"]
+- ["12BowlingTests14SessionManagerC", "Request"]
+- ["12BowlingTests14SessionManagerC", "RequestAdapter"]
+- ["12BowlingTests14SessionManagerC", "RequestRetrier"]
+- ["12BowlingTests14SessionManagerC", "ServerTrustPolicyManager"]
+- ["12BowlingTests14SessionManagerC", "SessionDelegate"]
+- ["12BowlingTests14SessionManagerC", "SessionManager"]
+- ["12BowlingTests14SessionManagerC", "StreamRequest"]
+- ["12BowlingTests14SessionManagerC", "String"]
+- ["12BowlingTests14SessionManagerC", "UInt64"]
+- ["12BowlingTests14SessionManagerC", "URL"]
+- ["12BowlingTests14SessionManagerC", "URLConvertible"]
+- ["12BowlingTests14SessionManagerC", "URLRequest"]
+- ["12BowlingTests14SessionManagerC", "URLRequestConvertible"]
+- ["12BowlingTests14SessionManagerC", "URLSession"]
+- ["12BowlingTests14SessionManagerC", "URLSessionConfiguration"]
+- ["12BowlingTests14SessionManagerC", "UUID"]
+- ["12BowlingTests14SessionManagerC", "UploadRequest"]
+- ["12BowlingTests14SessionManagerC", "Void"]
+- ["12BowlingTests14SessionManagerC", "adapter"]
+- !private ["12BowlingTests14SessionManagerC", "allowRetrier"]
+- ["12BowlingTests14SessionManagerC", "backgroundCompletionHandler"]
+- !private ["12BowlingTests14SessionManagerC", "commonInit"]
+- ["12BowlingTests14SessionManagerC", "deinit"]
+- !private ["12BowlingTests14SessionManagerC", "delegate"]
+- ["12BowlingTests14SessionManagerC", "multipartFormDataEncodingMemoryThreshold"]
+- ["12BowlingTests14SessionManagerC", "queue"]
+- ["12BowlingTests14SessionManagerC", "retrier"]
+- ["12BowlingTests14SessionManagerC", "session"]
+- ["12BowlingTests14SessionManagerC", "startRequestsImmediately"]
+- ["12BowlingTests14SessionManagerC", "stream"]
+- !private ["12BowlingTests14SessionManagerC", "upload"]
+- ["12BowlingTests13StreamRequestC", "Streamable"]
+- ["12BowlingTests13StreamRequestC", "init"]
+- !private ["12BowlingTests13StreamRequestC10StreamableO", "deinit"]
+- !private ["12BowlingTests13StreamRequestC10StreamableO", "netService"]
+- !private ["12BowlingTests13StreamRequestC10StreamableO", "stream"]
+- !private ["12BowlingTests13StreamRequestC10StreamableO", "task"]
+- !private ["12BowlingTests15TaskConvertibleP", "init"]
+- !private ["12BowlingTests15TaskConvertibleP", "netService"]
+- !private ["12BowlingTests15TaskConvertibleP", "stream"]
+- !private ["12BowlingTests15TaskConvertibleP", "task"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["12BowlingTests14URLConvertibleP", "appendingPathComponent"]
+- !private ["12BowlingTests14URLConvertibleP", "init"]
+- !private ["So12NSURLSessionC", "configuration"]
+- !private ["So12NSURLSessionC", "invalidateAndCancel"]
+- !private ["So12NSURLSessionC", "serverTrustPolicyManager"]
+- !private ["So25NSURLSessionConfigurationC", "default"]
+- !private ["So25NSURLSessionConfigurationC", "identifier"]
+- ["10Foundation4UUIDV", "init"]
+- ["10Foundation4UUIDV", "uuidString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidateAndCancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serverTrustPolicyManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utility"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "async"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "uuidString"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "12BowlingTests11DataRequestC"
+- "Se"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "So13NSFileManagerC"
+- "SH"
+- !private "12BowlingTests17MultipartFormDataC"
+- "12BowlingTests14SessionManagerC31MultipartFormDataEncodingResultO"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- !private "Sq"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- "10Foundation20ReferenceConvertibleP"
+- "12BowlingTests7RequestC"
+- !private "12BowlingTests14RequestRetrierP"
+- !private "12BowlingTests11DataRequestC11RequestableV"
+- "12BowlingTests14SessionManagerC"
+- "12BowlingTests13StreamRequestC"
+- !private "12BowlingTests13StreamRequestC10StreamableO"
+- !private "12BowlingTests15TaskConvertibleP"
+- !private "10Foundation3URLV"
+- !private "12BowlingTests14URLConvertibleP"
+- !private "So12NSURLSessionC"
+- !private "So25NSURLSessionConfigurationC"
+- "10Foundation4UUIDV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f79b1cc96ea1a310b819df2ba042fb5a"

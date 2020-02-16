@@ -1,0 +1,619 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataResponseSerializerProtocol"
+- "DataResponseSerializer"
+- "DownloadResponseSerializerProtocol"
+- "DownloadResponseSerializer"
+provides-nominal:
+- "12BowlingTests30DataResponseSerializerProtocolP"
+- "12BowlingTests22DataResponseSerializerV"
+- "12BowlingTests34DownloadResponseSerializerProtocolP"
+- "12BowlingTests26DownloadResponseSerializerV"
+provides-member:
+- ["12BowlingTests30DataResponseSerializerProtocolP", ""]
+- ["12BowlingTests22DataResponseSerializerV", ""]
+- ["12BowlingTests34DownloadResponseSerializerProtocolP", ""]
+- ["12BowlingTests26DownloadResponseSerializerV", ""]
+- ["12BowlingTests7RequestC", ""]
+- ["12BowlingTests11DataRequestC", ""]
+- ["12BowlingTests15DownloadRequestC", ""]
+- ["12BowlingTests7RequestC", "timeline"]
+- ["12BowlingTests11DataRequestC", "response"]
+- ["12BowlingTests11DataRequestC", "response"]
+- ["12BowlingTests15DownloadRequestC", "response"]
+- ["12BowlingTests15DownloadRequestC", "response"]
+- ["12BowlingTests7RequestC", "serializeResponseData"]
+- ["12BowlingTests11DataRequestC", "dataResponseSerializer"]
+- ["12BowlingTests11DataRequestC", "responseData"]
+- ["12BowlingTests15DownloadRequestC", "dataResponseSerializer"]
+- ["12BowlingTests15DownloadRequestC", "responseData"]
+- ["12BowlingTests7RequestC", "serializeResponseString"]
+- ["12BowlingTests11DataRequestC", "stringResponseSerializer"]
+- ["12BowlingTests11DataRequestC", "responseString"]
+- ["12BowlingTests15DownloadRequestC", "stringResponseSerializer"]
+- ["12BowlingTests15DownloadRequestC", "responseString"]
+- ["12BowlingTests7RequestC", "serializeResponseJSON"]
+- ["12BowlingTests11DataRequestC", "jsonResponseSerializer"]
+- ["12BowlingTests11DataRequestC", "responseJSON"]
+- ["12BowlingTests15DownloadRequestC", "jsonResponseSerializer"]
+- ["12BowlingTests15DownloadRequestC", "responseJSON"]
+- ["12BowlingTests7RequestC", "serializeResponsePropertyList"]
+- ["12BowlingTests11DataRequestC", "propertyListResponseSerializer"]
+- ["12BowlingTests11DataRequestC", "responsePropertyList"]
+- ["12BowlingTests15DownloadRequestC", "propertyListResponseSerializer"]
+- ["12BowlingTests15DownloadRequestC", "responsePropertyList"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private ">"
+- !private "??"
+- !private "AFError"
+- "AssignmentPrecedence"
+- !private "CFAbsoluteTimeGetCurrent"
+- !private "CFString"
+- !private "CFStringConvertEncodingToNSStringEncoding"
+- !private "CFStringConvertIANACharSetNameToEncoding"
+- "CastingPrecedence"
+- "Data"
+- "DataRequest"
+- "DataResponse"
+- "DataResponseSerializer"
+- "DataResponseSerializerProtocol"
+- "DefaultDataResponse"
+- "DefaultDownloadResponse"
+- "DispatchQueue"
+- "DownloadRequest"
+- "DownloadResponse"
+- "DownloadResponseSerializer"
+- "DownloadResponseSerializerProtocol"
+- "Error"
+- "HTTPURLResponse"
+- "Int"
+- "JSONSerialization"
+- !private "NSNull"
+- "PropertyListSerialization"
+- "Request"
+- "Result"
+- "Set"
+- "String"
+- "Timeline"
+- "URL"
+- "URLRequest"
+- "Void"
+- !private "emptyDataStatusCodes"
+depends-member:
+- !private ["12BowlingTests7AFErrorO", "deinit"]
+- !private ["12BowlingTests7AFErrorO", "responseSerializationFailed"]
+- ["SK", "Encoding"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["So8CAActionP", "init"]
+- ["s7CVarArgP", "Encoding"]
+- ["s7CVarArgP", "ReadOptions"]
+- ["s7CVarArgP", "ReadingOptions"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialResponseTime"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "propertyList"]
+- !private ["s7CVarArgP", "queue"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "textEncodingName"]
+- ["Sl", "Encoding"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- ["SL", "Encoding"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AFError"]
+- !private ["s28CustomDebugStringConvertibleP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "CFStringConvertEncodingToNSStringEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "CFStringConvertIANACharSetNameToEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "DataRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "DataResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "DownloadRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "DownloadResponseSerializer"]
+- ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNull"]
+- !private ["s28CustomDebugStringConvertibleP", "PropertyListSerialization"]
+- ["s28CustomDebugStringConvertibleP", "ReadOptions"]
+- ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "Request"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "Timeline"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "emptyDataStatusCodes"]
+- !private ["s28CustomDebugStringConvertibleP", "endTime"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialResponseTime"]
+- !private ["s28CustomDebugStringConvertibleP", "isoLatin1"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "propertyList"]
+- !private ["s28CustomDebugStringConvertibleP", "propertyListResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "queue"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "serializeResponseData"]
+- !private ["s28CustomDebugStringConvertibleP", "serializeResponseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "serializeResponsePropertyList"]
+- !private ["s28CustomDebugStringConvertibleP", "serializeResponseString"]
+- !private ["s28CustomDebugStringConvertibleP", "startTime"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "stringResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "textEncodingName"]
+- ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isoLatin1"]
+- !private ["s23CustomStringConvertibleP", "AFError"]
+- !private ["s23CustomStringConvertibleP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s23CustomStringConvertibleP", "CFStringConvertEncodingToNSStringEncoding"]
+- !private ["s23CustomStringConvertibleP", "CFStringConvertIANACharSetNameToEncoding"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "DataRequest"]
+- !private ["s23CustomStringConvertibleP", "DataResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "DownloadRequest"]
+- !private ["s23CustomStringConvertibleP", "DownloadResponseSerializer"]
+- ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "NSNull"]
+- !private ["s23CustomStringConvertibleP", "PropertyListSerialization"]
+- ["s23CustomStringConvertibleP", "ReadOptions"]
+- ["s23CustomStringConvertibleP", "ReadingOptions"]
+- !private ["s23CustomStringConvertibleP", "Request"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "Timeline"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "emptyDataStatusCodes"]
+- !private ["s23CustomStringConvertibleP", "endTime"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialResponseTime"]
+- !private ["s23CustomStringConvertibleP", "isoLatin1"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "jsonResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "propertyList"]
+- !private ["s23CustomStringConvertibleP", "propertyListResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "queue"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "serializeResponseData"]
+- !private ["s23CustomStringConvertibleP", "serializeResponseJSON"]
+- !private ["s23CustomStringConvertibleP", "serializeResponsePropertyList"]
+- !private ["s23CustomStringConvertibleP", "serializeResponseString"]
+- !private ["s23CustomStringConvertibleP", "startTime"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "stringResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "textEncodingName"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- ["12BowlingTests11DataRequestC", "Data"]
+- !private ["12BowlingTests11DataRequestC", "DataRequest"]
+- ["12BowlingTests11DataRequestC", "DataResponse"]
+- ["12BowlingTests11DataRequestC", "DataResponseSerializer"]
+- ["12BowlingTests11DataRequestC", "DataResponseSerializerProtocol"]
+- ["12BowlingTests11DataRequestC", "DefaultDataResponse"]
+- ["12BowlingTests11DataRequestC", "DispatchQueue"]
+- ["12BowlingTests11DataRequestC", "JSONSerialization"]
+- ["12BowlingTests11DataRequestC", "PropertyListSerialization"]
+- !private ["12BowlingTests11DataRequestC", "Request"]
+- ["12BowlingTests11DataRequestC", "String"]
+- ["12BowlingTests11DataRequestC", "Void"]
+- ["12BowlingTests11DataRequestC", "dataResponseSerializer"]
+- !private ["12BowlingTests11DataRequestC", "delegate"]
+- ["12BowlingTests11DataRequestC", "jsonResponseSerializer"]
+- ["12BowlingTests11DataRequestC", "propertyListResponseSerializer"]
+- ["12BowlingTests11DataRequestC", "response"]
+- ["12BowlingTests11DataRequestC", "stringResponseSerializer"]
+- ["12BowlingTests22DataResponseSerializerV", "Data"]
+- ["12BowlingTests22DataResponseSerializerV", "Error"]
+- ["12BowlingTests22DataResponseSerializerV", "HTTPURLResponse"]
+- ["12BowlingTests22DataResponseSerializerV", "Result"]
+- ["12BowlingTests22DataResponseSerializerV", "SerializedObject"]
+- ["12BowlingTests22DataResponseSerializerV", "URLRequest"]
+- ["12BowlingTests22DataResponseSerializerV", "deinit"]
+- ["12BowlingTests22DataResponseSerializerV", "init"]
+- ["12BowlingTests22DataResponseSerializerV", "serializeResponse"]
+- ["12BowlingTests30DataResponseSerializerProtocolP", "Data"]
+- ["12BowlingTests30DataResponseSerializerProtocolP", "Error"]
+- ["12BowlingTests30DataResponseSerializerProtocolP", "HTTPURLResponse"]
+- ["12BowlingTests30DataResponseSerializerProtocolP", "Result"]
+- ["12BowlingTests30DataResponseSerializerProtocolP", "SerializedObject"]
+- ["12BowlingTests30DataResponseSerializerProtocolP", "URLRequest"]
+- ["12BowlingTests30DataResponseSerializerProtocolP", ""]
+- !private ["12BowlingTests30DataResponseSerializerProtocolP", "init"]
+- ["12BowlingTests30DataResponseSerializerProtocolP", "serializeResponse"]
+- ["Se", "Encoding"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "isoLatin1"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["12BowlingTests15DownloadRequestC", "AFError"]
+- ["12BowlingTests15DownloadRequestC", "Data"]
+- ["12BowlingTests15DownloadRequestC", "DefaultDownloadResponse"]
+- ["12BowlingTests15DownloadRequestC", "DispatchQueue"]
+- !private ["12BowlingTests15DownloadRequestC", "DownloadRequest"]
+- ["12BowlingTests15DownloadRequestC", "DownloadResponse"]
+- ["12BowlingTests15DownloadRequestC", "DownloadResponseSerializer"]
+- ["12BowlingTests15DownloadRequestC", "DownloadResponseSerializerProtocol"]
+- ["12BowlingTests15DownloadRequestC", "JSONSerialization"]
+- ["12BowlingTests15DownloadRequestC", "PropertyListSerialization"]
+- !private ["12BowlingTests15DownloadRequestC", "Request"]
+- ["12BowlingTests15DownloadRequestC", "String"]
+- ["12BowlingTests15DownloadRequestC", "Void"]
+- ["12BowlingTests15DownloadRequestC", "dataResponseSerializer"]
+- !private ["12BowlingTests15DownloadRequestC", "delegate"]
+- ["12BowlingTests15DownloadRequestC", "jsonResponseSerializer"]
+- ["12BowlingTests15DownloadRequestC", "propertyListResponseSerializer"]
+- ["12BowlingTests15DownloadRequestC", "response"]
+- ["12BowlingTests15DownloadRequestC", "responseData"]
+- ["12BowlingTests15DownloadRequestC", "responseJSON"]
+- ["12BowlingTests15DownloadRequestC", "responsePropertyList"]
+- ["12BowlingTests15DownloadRequestC", "responseString"]
+- ["12BowlingTests15DownloadRequestC", "stringResponseSerializer"]
+- ["12BowlingTests26DownloadResponseSerializerV", "Error"]
+- ["12BowlingTests26DownloadResponseSerializerV", "HTTPURLResponse"]
+- ["12BowlingTests26DownloadResponseSerializerV", "Result"]
+- ["12BowlingTests26DownloadResponseSerializerV", "SerializedObject"]
+- ["12BowlingTests26DownloadResponseSerializerV", "URL"]
+- ["12BowlingTests26DownloadResponseSerializerV", "URLRequest"]
+- ["12BowlingTests26DownloadResponseSerializerV", "deinit"]
+- ["12BowlingTests26DownloadResponseSerializerV", "init"]
+- ["12BowlingTests26DownloadResponseSerializerV", "serializeResponse"]
+- ["12BowlingTests34DownloadResponseSerializerProtocolP", "Error"]
+- ["12BowlingTests34DownloadResponseSerializerProtocolP", "HTTPURLResponse"]
+- ["12BowlingTests34DownloadResponseSerializerProtocolP", "Result"]
+- ["12BowlingTests34DownloadResponseSerializerProtocolP", "SerializedObject"]
+- ["12BowlingTests34DownloadResponseSerializerProtocolP", "URL"]
+- ["12BowlingTests34DownloadResponseSerializerProtocolP", "URLRequest"]
+- ["12BowlingTests34DownloadResponseSerializerProtocolP", ""]
+- !private ["12BowlingTests34DownloadResponseSerializerProtocolP", "init"]
+- ["12BowlingTests34DownloadResponseSerializerProtocolP", "serializeResponse"]
+- ["SE", "Encoding"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "isoLatin1"]
+- !private ["SS10FoundationE8EncodingV", "init"]
+- !private ["SS10FoundationE8EncodingV", "isoLatin1"]
+- ["SQ", "Encoding"]
+- ["SQ", "ReadOptions"]
+- ["SQ", "ReadingOptions"]
+- !private ["SQ", "addOperation"]
+- !private ["SQ", "allowFragments"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialResponseTime"]
+- !private ["SQ", "isoLatin1"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "main"]
+- !private ["SQ", "propertyList"]
+- !private ["SQ", "queue"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "textEncodingName"]
+- !private ["s5ErrorP", "responseSerializationFailed"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "isoLatin1"]
+- ["s32ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["So17NSHTTPURLResponseC", "textEncodingName"]
+- ["SH", "Encoding"]
+- ["SH", "ReadOptions"]
+- ["SH", "ReadingOptions"]
+- !private ["SH", "addOperation"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "initialResponseTime"]
+- !private ["SH", "isoLatin1"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "main"]
+- !private ["SH", "propertyList"]
+- !private ["SH", "queue"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "textEncodingName"]
+- ["So19NSJSONSerializationC", "ReadingOptions"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["10Foundation14LocalizedErrorP", "responseSerializationFailed"]
+- ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "textEncodingName"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So9NSCopyingP", "textEncodingName"]
+- !private ["So6NSNullC", "init"]
+- ["So8NSObjectC", "ReadOptions"]
+- ["So8NSObjectC", "ReadingOptions"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initialResponseTime"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "propertyList"]
+- !private ["So8NSObjectC", "queue"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "textEncodingName"]
+- ["So8NSObjectP", "ReadOptions"]
+- ["So8NSObjectP", "ReadingOptions"]
+- !private ["So8NSObjectP", "addOperation"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialResponseTime"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "propertyList"]
+- !private ["So8NSObjectP", "queue"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So8NSObjectP", "textEncodingName"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So14NSSecureCodingP", "textEncodingName"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So16NSOperationQueueC", "addOperation"]
+- !private ["s9OptionSetP", "allowFragments"]
+- !private ["Sq", "isoLatin1"]
+- ["So27NSPropertyListSerializationC", "ReadOptions"]
+- !private ["So27NSPropertyListSerializationC", "propertyList"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- ["Sm", "Encoding"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["SY", "allowFragments"]
+- !private ["SY", "init"]
+- !private ["SY", "isoLatin1"]
+- !private ["So20NSJSONReadingOptionsV", "allowFragments"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["12BowlingTests7RequestC", "AFError"]
+- !private ["12BowlingTests7RequestC", "CFAbsoluteTimeGetCurrent"]
+- !private ["12BowlingTests7RequestC", "CFString"]
+- !private ["12BowlingTests7RequestC", "CFStringConvertEncodingToNSStringEncoding"]
+- !private ["12BowlingTests7RequestC", "CFStringConvertIANACharSetNameToEncoding"]
+- ["12BowlingTests7RequestC", "Data"]
+- !private ["12BowlingTests7RequestC", "DataRequest"]
+- ["12BowlingTests7RequestC", "DataResponse"]
+- ["12BowlingTests7RequestC", "DataResponseSerializer"]
+- ["12BowlingTests7RequestC", "DataResponseSerializerProtocol"]
+- ["12BowlingTests7RequestC", "DefaultDataResponse"]
+- ["12BowlingTests7RequestC", "DefaultDownloadResponse"]
+- ["12BowlingTests7RequestC", "DispatchQueue"]
+- !private ["12BowlingTests7RequestC", "DownloadRequest"]
+- ["12BowlingTests7RequestC", "DownloadResponse"]
+- ["12BowlingTests7RequestC", "DownloadResponseSerializer"]
+- ["12BowlingTests7RequestC", "DownloadResponseSerializerProtocol"]
+- ["12BowlingTests7RequestC", "Error"]
+- ["12BowlingTests7RequestC", "HTTPURLResponse"]
+- ["12BowlingTests7RequestC", "JSONSerialization"]
+- !private ["12BowlingTests7RequestC", "NSNull"]
+- ["12BowlingTests7RequestC", "PropertyListSerialization"]
+- !private ["12BowlingTests7RequestC", "Request"]
+- ["12BowlingTests7RequestC", "Result"]
+- ["12BowlingTests7RequestC", "String"]
+- ["12BowlingTests7RequestC", "Timeline"]
+- ["12BowlingTests7RequestC", "Void"]
+- ["12BowlingTests7RequestC", "dataResponseSerializer"]
+- !private ["12BowlingTests7RequestC", "delegate"]
+- !private ["12BowlingTests7RequestC", "emptyDataStatusCodes"]
+- !private ["12BowlingTests7RequestC", "endTime"]
+- ["12BowlingTests7RequestC", "jsonResponseSerializer"]
+- ["12BowlingTests7RequestC", "propertyListResponseSerializer"]
+- ["12BowlingTests7RequestC", "response"]
+- ["12BowlingTests7RequestC", "responseData"]
+- ["12BowlingTests7RequestC", "responseJSON"]
+- ["12BowlingTests7RequestC", "responsePropertyList"]
+- ["12BowlingTests7RequestC", "responseString"]
+- ["12BowlingTests7RequestC", "serializeResponseData"]
+- ["12BowlingTests7RequestC", "serializeResponseJSON"]
+- ["12BowlingTests7RequestC", "serializeResponsePropertyList"]
+- ["12BowlingTests7RequestC", "serializeResponseString"]
+- !private ["12BowlingTests7RequestC", "startTime"]
+- ["12BowlingTests7RequestC", "stringResponseSerializer"]
+- ["12BowlingTests7RequestC", "timeline"]
+- !private ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "inputDataNil"]
+- !private ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "inputDataNilOrZeroLength"]
+- !private ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "inputFileNil"]
+- !private ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "inputFileReadFailed"]
+- !private ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "jsonSerializationFailed"]
+- !private ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "propertyListSerializationFailed"]
+- !private ["12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO", "stringSerializationFailed"]
+- !private ["12BowlingTests6ResultO", "failure"]
+- !private ["12BowlingTests6ResultO", "success"]
+- ["ST", "Encoding"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["Sh", "contains"]
+- !private ["s10SetAlgebraP", "allowFragments"]
+- !private ["s10SetAlgebraP", "contains"]
+- ["SS", "Encoding"]
+- !private ["SS", "init"]
+- ["Sy", "Encoding"]
+- !private ["Sy", "init"]
+- !private ["12BowlingTests12TaskDelegateC", "initialResponseTime"]
+- !private ["12BowlingTests12TaskDelegateC", "queue"]
+- ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["12BowlingTests8TimelineV", "init"]
+- ["12BowlingTests14URLConvertibleP", "Encoding"]
+- !private ["12BowlingTests14URLConvertibleP", "init"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So13NSURLResponseC", "textEncodingName"]
+- ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s19_HasContiguousBytesP", "Encoding"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ReadOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialResponseTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "propertyList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textEncodingName"]
+- ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isoLatin1"]
+depends-nominal:
+- !private "12BowlingTests7AFErrorO"
+- "SK"
+- !private "So8CAActionP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "12BowlingTests11DataRequestC"
+- "12BowlingTests22DataResponseSerializerV"
+- "12BowlingTests30DataResponseSerializerProtocolP"
+- "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "12BowlingTests15DownloadRequestC"
+- "12BowlingTests26DownloadResponseSerializerV"
+- "12BowlingTests34DownloadResponseSerializerProtocolP"
+- "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- "So19NSJSONSerializationC"
+- !private "10Foundation14LocalizedErrorP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSNullC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So9OS_objectC"
+- !private "So16NSOperationQueueC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "So27NSPropertyListSerializationC"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "So20NSJSONReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "12BowlingTests7RequestC"
+- !private "12BowlingTests7AFErrorO34ResponseSerializationFailureReasonO"
+- !private "12BowlingTests6ResultO"
+- "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- "SS"
+- "Sy"
+- !private "12BowlingTests12TaskDelegateC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "12BowlingTests8TimelineV"
+- "12BowlingTests14URLConvertibleP"
+- !private "So13NSURLResponseC"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "23af7f6b2473946ffdaed2eb5a2b409d"

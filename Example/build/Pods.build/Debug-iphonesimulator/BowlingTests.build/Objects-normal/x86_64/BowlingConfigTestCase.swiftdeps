@@ -1,0 +1,241 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TestA"
+- "BowlingConfigTestCase"
+provides-nominal:
+- "12BowlingTests5TestAC"
+- "12BowlingTests0A14ConfigTestCaseC"
+provides-member:
+- ["12BowlingTests5TestAC", ""]
+- ["12BowlingTests0A14ConfigTestCaseC", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testDymanic"
+- "testExample"
+- "testPerformanceExample"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "BaseTestCase"
+- !private "BowlingConfig"
+- "BowlingConfigTestCase"
+- "String"
+- "TestA"
+- !private "XCTAssert"
+- !private "print"
+depends-member:
+- !private ["12BowlingTests12BaseTestCaseC", "BowlingConfig"]
+- !private ["12BowlingTests12BaseTestCaseC", "String"]
+- !private ["12BowlingTests12BaseTestCaseC", "TestA"]
+- !private ["12BowlingTests12BaseTestCaseC", "XCTAssert"]
+- ["12BowlingTests12BaseTestCaseC", ""]
+- !private ["12BowlingTests12BaseTestCaseC", "global"]
+- ["12BowlingTests12BaseTestCaseC", "init"]
+- !private ["12BowlingTests12BaseTestCaseC", "measure"]
+- !private ["12BowlingTests12BaseTestCaseC", "print"]
+- ["12BowlingTests12BaseTestCaseC", "setUp"]
+- ["12BowlingTests12BaseTestCaseC", "tearDown"]
+- ["12BowlingTests12BaseTestCaseC", "testDymanic"]
+- ["12BowlingTests12BaseTestCaseC", "testExample"]
+- ["12BowlingTests12BaseTestCaseC", "testPerformanceExample"]
+- !private ["12BowlingTests0A6ConfigP", "commonHTTPHeaderMap"]
+- !private ["12BowlingTests0A6ConfigP", "dynamicHTTPHeader"]
+- !private ["12BowlingTests0A6ConfigP", "serverHost"]
+- !private ["12BowlingTests0A6ConfigP", "setHTTPHeader"]
+- !private ["12BowlingTests0A14ConfigTestCaseC", "BowlingConfig"]
+- !private ["12BowlingTests0A14ConfigTestCaseC", "String"]
+- !private ["12BowlingTests0A14ConfigTestCaseC", "TestA"]
+- !private ["12BowlingTests0A14ConfigTestCaseC", "XCTAssert"]
+- ["12BowlingTests0A14ConfigTestCaseC", "deinit"]
+- !private ["12BowlingTests0A14ConfigTestCaseC", "global"]
+- ["12BowlingTests0A14ConfigTestCaseC", "init"]
+- !private ["12BowlingTests0A14ConfigTestCaseC", "measure"]
+- !private ["12BowlingTests0A14ConfigTestCaseC", "print"]
+- ["12BowlingTests0A14ConfigTestCaseC", "setUp"]
+- ["12BowlingTests0A14ConfigTestCaseC", "tearDown"]
+- ["12BowlingTests0A14ConfigTestCaseC", "testDymanic"]
+- ["12BowlingTests0A14ConfigTestCaseC", "testExample"]
+- ["12BowlingTests0A14ConfigTestCaseC", "testPerformanceExample"]
+- !private ["12BowlingTests0A12GlobalConfigC", "commonHTTPHeaderMap"]
+- !private ["12BowlingTests0A12GlobalConfigC", "deinit"]
+- !private ["12BowlingTests0A12GlobalConfigC", "dynamicHTTPHeader"]
+- !private ["12BowlingTests0A12GlobalConfigC", "serverHost"]
+- !private ["12BowlingTests0A12GlobalConfigC", "setHTTPHeader"]
+- !private ["s7CVarArgP", "TestA"]
+- !private ["s7CVarArgP", "XCTAssert"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "measure"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "TestA"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssert"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "measure"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "TestA"]
+- !private ["s23CustomStringConvertibleP", "XCTAssert"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "measure"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "TestA"]
+- !private ["SQ", "XCTAssert"]
+- ["SQ", ""]
+- !private ["SQ", "global"]
+- !private ["SQ", "init"]
+- !private ["SQ", "measure"]
+- !private ["SQ", "print"]
+- !private ["SQ", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "TestA"]
+- !private ["SH", "XCTAssert"]
+- ["SH", ""]
+- !private ["SH", "global"]
+- !private ["SH", "init"]
+- !private ["SH", "measure"]
+- !private ["SH", "print"]
+- !private ["SH", "subscript"]
+- !private ["So8NSObjectC", "BowlingConfig"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TestA"]
+- !private ["So8NSObjectC", "XCTAssert"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "measure"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testDymanic"]
+- ["So8NSObjectC", "testExample"]
+- ["So8NSObjectC", "testPerformanceExample"]
+- !private ["So8NSObjectP", "TestA"]
+- !private ["So8NSObjectP", "XCTAssert"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "measure"]
+- !private ["So8NSObjectP", "print"]
+- !private ["ST", "subscript"]
+- ["12BowlingTests5TestAC", "String"]
+- ["12BowlingTests5TestAC", "init"]
+- ["12BowlingTests5TestAC", "key2"]
+- ["12BowlingTests5TestAC", "key3"]
+- !private ["So11XCTActivityP", "TestA"]
+- !private ["So11XCTActivityP", "XCTAssert"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "global"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "measure"]
+- !private ["So11XCTActivityP", "print"]
+- !private ["So17XCTWaiterDelegateP", "TestA"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssert"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "global"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "measure"]
+- !private ["So17XCTWaiterDelegateP", "print"]
+- !private ["So6XCTestC", "BowlingConfig"]
+- !private ["So6XCTestC", "String"]
+- !private ["So6XCTestC", "TestA"]
+- !private ["So6XCTestC", "XCTAssert"]
+- !private ["So6XCTestC", "global"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "measure"]
+- !private ["So6XCTestC", "print"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testDymanic"]
+- ["So6XCTestC", "testExample"]
+- ["So6XCTestC", "testPerformanceExample"]
+- !private ["So10XCTestCaseC", "BowlingConfig"]
+- !private ["So10XCTestCaseC", "String"]
+- !private ["So10XCTestCaseC", "TestA"]
+- !private ["So10XCTestCaseC", "XCTAssert"]
+- !private ["So10XCTestCaseC", "global"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "measure"]
+- !private ["So10XCTestCaseC", "print"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testDymanic"]
+- ["So10XCTestCaseC", "testExample"]
+- ["So10XCTestCaseC", "testPerformanceExample"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TestA"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssert"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "measure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "12BowlingTests12BaseTestCaseC"
+- !private "12BowlingTests0A6ConfigP"
+- "12BowlingTests0A14ConfigTestCaseC"
+- !private "12BowlingTests0A12GlobalConfigC"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "ST"
+- "12BowlingTests5TestAC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8a1f812cd81dfd28a8618f702c926543"

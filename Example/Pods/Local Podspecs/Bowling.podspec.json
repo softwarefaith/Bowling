@@ -1,0 +1,30 @@
+{
+  "name": "Bowling",
+  "version": "0.1.0",
+  "summary": "A short description of Bowling.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/softwarefaith@126.com/Bowling",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "softwarefaith@126.com": "jie.cai@mljr.com"
+  },
+  "source": {
+    "git": "https://github.com/softwarefaith@126.com/Bowling.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Bowling/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.9"
+    ],
+    "HandyJSON": [
+      "~> 5.0.0"
+    ]
+  }
+}
